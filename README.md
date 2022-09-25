@@ -1,10 +1,10 @@
-# xenial32
+# bionic32
 
 ## 1. Project Description
 
-This project builds a Vagrant box for Ubuntu Xenial 16.04 LTS 32bit based on hashicorp/ubuntu32.
+This project builds a Vagrant box for Ubuntu Bionic 18.04 LTS 32bit based on hashicorp/ubuntu32.
 
-Available on Vagrant Cloud https://app.vagrantup.com/pharazon/boxes/xenial32
+Available on Vagrant Cloud https://app.vagrantup.com/pharazon/boxes/bionic32
 
 ### 1.1. Business Vision
 
@@ -84,7 +84,7 @@ Status
 
 ### 3.6. Version Control
 
-See https://github.com/phzfi/xenial32
+See https://github.com/phzfi/bionic32
 
 ### 3.7. Databases and Migrations
 
