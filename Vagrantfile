@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "pharazon/xenial32"
+  config.vm.box = "pharazon/trusty32"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -32,7 +32,7 @@ Vagrant.configure("2") do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  config.vm.network "private_network", ip: "192.168.56.98"
+  config.vm.network "private_network", ip: "192.168.56.99"
   config.vm.provider "virtualbox" do |v|
     v.customize ['modifyvm', :id, '--cableconnected1', 'on']
     #v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
